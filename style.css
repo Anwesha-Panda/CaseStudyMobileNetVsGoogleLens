@@ -1,0 +1,19 @@
+img{
+    width: 30px;
+    height: 30px;
+}
+
+body{
+    background-image: repeating-linear-gradient(purple,white,yellow);
+}
+
+h1{
+    color: bisque;
+}
+
+#conclusion{
+    font-size: 25px;
+    color: purple;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}

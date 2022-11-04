@@ -1,0 +1,284 @@
+<html>
+    <head>
+        <title>Case Study: Mobilenet vs Google Lens</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+       
+        <link rel="stylesheet" type="text/css" href="style.css">
+      </head>
+      <body>
+          <center>
+              <h1>CASE STUDY BETWEEN GOOGLE LENS AND MOBILENET</h1>
+                <ol>
+                  <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                    <b>Test Image - </b>
+                    <img src="bottle.jpg" class="img-responsive">
+                  </li>
+
+                  <h5 class="col-sm-4 col-xs-12">Output on<b>GOOGLE LENS</b>
+                    <span>TIGER Thermos Mug Bottle</span>
+                  </h5>
+
+                  <h5 class="col-sm-4 col-xs-12">Output on<b>MOBILENET</b>
+                    <span>Microphone</span>
+                  </h5>
+                  
+                  <div class="mini_result" class="col-xs-12">
+                    <h4>Result - Google Lens is correct</h4>
+                    <hr>
+                    <h4></h4>
+                  </div>
+
+                  </div>
+                  <br>
+                </ol>
+                
+                
+                <ol>
+                  <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                    <b>Test Image - </b>
+                    <img src="chair.jpg" class="img-responsive">
+                  </li>
+
+                  <h5 class="col-sm-4 col-xs-12">Output on<b>GOOGLE LENS</b>
+                    <span>Comfortable Chair</span>
+                  </h5>
+
+                  <h5 class="col-sm-4 col-xs-12">Output on<b>MOBILENET</b>
+                    <span>Not possible to test</span>
+                  </h5>
+                  
+                  <div class="mini_result" class="col-xs-12">
+                    <h4>Result - No result</h4>
+                    <hr>
+                    <h4></h4>
+                  </div>
+
+                  </div>
+                  <br>
+                </ol>        
+
+
+                <ol>
+                  <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                    <b>Test Image - </b>
+                    <img src="bodylotion.jpg" class="img-responsive">
+                  </li>
+
+                  <h5 class="col-sm-4 col-xs-12">Output on<b>GOOGLE LENS</b>
+                    <span>Facial Moisturiser</span>
+                  </h5>
+
+                  <h5 class="col-sm-4 col-xs-12">Output on<b>MOBILENET</b>
+                    <span>Sunscreen</span>
+                  </h5>
+                  
+                  <div class="mini_result" class="col-xs-12">
+                    <h4>Result - Google Lens is correct</h4>
+                    <hr>
+                    <h4></h4>
+                  </div>
+
+                  </div>
+                  <br>
+                </ol>        
+
+
+                <ol>
+                  <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                    <b>Test Image - </b>
+                    <img src="book.jpg" class="img-responsive">
+                  </li>
+
+                  <h5 class="col-sm-4 col-xs-12">Output on<b>GOOGLE LENS</b>
+                    <span>The BFG(book)</span>
+                  </h5>
+
+                  <h5 class="col-sm-4 col-xs-12">Output on<b>MOBILENET</b>
+                    <span>Comic Book</span>
+                  </h5>
+                  
+                  <div class="mini_result" class="col-xs-12">
+                    <h4>Result - Both are correct</h4>
+                    <hr>
+                    <h4></h4>
+                  </div>
+
+                  </div>
+                  <br>
+                </ol>        
+
+
+                <ol>
+                  <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                    <b>Test Image - </b>
+                    <img src="calculator.jpg" class="img-responsive">
+                  </li>
+
+                  <h5 class="col-sm-4 col-xs-12">Output on<b>GOOGLE LENS</b>
+                    <span>Scientific Calculator</span>
+                  </h5>
+
+                  <h5 class="col-sm-4 col-xs-12">Output on<b>MOBILENET</b>
+                    <span>Remote Controller</span>
+                  </h5>
+                  
+                  <div class="mini_result" class="col-xs-12">
+                    <h4>Result - Google Lens is correct</h4>
+                    <hr>
+                    <h4></h4>
+                  </div>
+
+                  </div>
+                  <br>
+                </ol>        
+
+
+                <ol>
+                  <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                    <b>Test Image - </b>
+                    <img src="headphone.jpg" class="img-responsive">
+                  </li>
+
+                  <h5 class="col-sm-4 col-xs-12">Output on<b>GOOGLE LENS</b>
+                    <span>On-ear Headphones</span>
+                  </h5>
+
+                  <h5 class="col-sm-4 col-xs-12">Output on<b>MOBILENET</b>
+                    <span>Speaker System</span>
+                  </h5>
+                  
+                  <div class="mini_result" class="col-xs-12">
+                    <h4>Result - Google Lens is correct</h4>
+                    <hr>
+                    <h4></h4>
+                  </div>
+
+                  </div>
+                  <br>
+                </ol>        
+
+
+                <ol>
+                  <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                    <b>Test Image - </b>
+                    <img src="laptop.jpg" class="img-responsive">
+                  </li>
+
+                  <h5 class="col-sm-4 col-xs-12">Output on<b>GOOGLE LENS</b>
+                    <span>Laptop</span>
+                  </h5>
+                  
+                  <h5 class="col-sm-4 col-xs-12">Output on<b>MOBILENET</b>
+                    <span>Laptop Computer</span>
+                  </h5>
+
+                  <div class="mini_result" class="col-xs-12">
+                    <h4>Result - Both are correct</h4>
+                    <hr>
+                    <h4></h4>
+                  </div>
+
+                  </div>
+                  <br>
+                </ol>        
+
+
+                <ol>
+                  <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                    <b>Test Image - </b>
+                    <img src="rubikscube.jpg" class="img-responsive">
+                  </li>
+
+                  <h5 class="col-sm-4 col-xs-12">Output on<b>GOOGLE LENS</b>
+                    <span>Rubik's Cube</span>
+                  </h5>
+
+                  <h5 class="col-sm-4 col-xs-12">Output on<b>MOBILENET</b>
+                    <span>Slot/One armed bandit</span>
+                  </h5>
+                  
+                  <div class="mini_result" class="col-xs-12">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4></h4>
+                  </div>
+
+                  </div>
+                  <br>
+                </ol>        
+
+
+                <ol>
+                  <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                    <b>Test Image - </b>
+                    <img src="shirt.jpg" class="img-responsive">
+                  </li>
+
+                  <h5 class="col-sm-4 col-xs-12">Output on<b>GOOGLE LENS</b>
+                    <span>T-Shirt</span>
+                  </h5>
+
+                  <h5 class="col-sm-4 col-xs-12">Output on<b>MOBILENET</b>
+                    <span>Shirt</span>
+                  </h5>
+                  
+                  <div class="mini_result" class="col-xs-12">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4></h4>
+                  </div>
+
+                  </div>
+                  <br>
+                </ol>        
+
+
+                <ol>
+                  <div class="test_image_and_result col-xs-12">
+                    <li class="col-sm-4 col-xs-12">
+                    <b>Test Image - </b>
+                    <img src="toy.jpg" class="img-responsive">
+                  </li>
+
+                  <h5 class="col-sm-4 col-xs-12">Output on<b>GOOGLE LENS</b>
+                    <span><Mickey Mouse: Cartoon Character/span>
+                  </h5>
+
+                  <h5 class="col-sm-4 col-xs-12">Output on<b>MOBILENET</b>
+                    <span>Punching Bag</span>
+                  </h5>
+                  
+                  <div class="mini_result" class="col-xs-12">
+                    <h4>Result - Google Lens is correct</h4>
+                    <hr>
+                    <h4></h4>
+                  </div>
+
+                  </div>
+                  <br>
+                </ol> 
+                
+                <hr>
+                <div id="conclusion">Google Lens identified 10 out of 10 objects correctly<br>whereas Mobilenet identified 2 out of 10 objects correctly.<br>So, Google Lens is more accurate.</div> 
+
+          </center>
+          <div class="copy_right_footer">
+            Developed by - Anwesha
+          </div>
+        </body>
+</html>
